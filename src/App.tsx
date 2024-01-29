@@ -8,7 +8,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Login />} />
-      <Route path="/oauth/callback/kakao" element={<Spinner />} />
+      <Route path="/loading" element={<Spinner />} />
       <Route path="/complete" element={<Complete />} />
     </Routes>
   );

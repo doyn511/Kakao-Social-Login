@@ -25,8 +25,7 @@ export default function Spinner() {
             },
           }
         )
-        .then((res) => {
-          console.log(res.data);
+        .then(() => {
           navigate("/complete");
         });
     }
